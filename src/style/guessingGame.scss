@@ -1,0 +1,18 @@
+.guessing-game-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .guessing-game {
+    display: grid;
+    margin-top: 5px;
+    grid-template-columns: 1fr;
+
+    .guessing-game-items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 5px;
+    }
+  }
+}

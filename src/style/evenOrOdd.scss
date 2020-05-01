@@ -1,0 +1,18 @@
+.even-or-odd-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .even-or-odd {
+    display: grid;
+    margin-top: 5px;
+    grid-template-columns: 1fr;
+
+    .even-or-odd-items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 5px;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.string-manip-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .string-manip {
+    display: grid;
+    margin-top: 5px;
+    grid-template-columns: 1fr;
+
+    .string-manip-items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 5px;
+    }
+  }
+}

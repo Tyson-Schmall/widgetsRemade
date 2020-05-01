@@ -1,0 +1,17 @@
+.year-born-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .year-born {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    .year-born-items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 5px;
+    }
+  }
+}

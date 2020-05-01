@@ -1,0 +1,23 @@
+.fizz-buzz-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .fizz-buzz {
+    display: grid;
+    margin: 5px;
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+    .fizz-buzz-items {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      margin: 5px;
+
+      .fizz-buzz-items h1 {
+        text-align: center;
+      }
+    }
+  }
+}
